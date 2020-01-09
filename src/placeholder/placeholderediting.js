@@ -32,7 +32,8 @@ export default class PlaceholderEditing extends Plugin {
 		);
 
 		this.editor.config.define( 'placeholderProps', {
-			types: [ 'name', 'date' ],
+			types: [ 'NOME_EVENTO', 'PERIODO_EVENTO', 'QTD_PESSOAS_EVENTO',
+				'AMBIENTES_RESERVADOS', 'ALIMENTOS_BEBIDAS', 'EQUIPAMENTOS_SERVICOS' ],
 		} );
 	}
 
